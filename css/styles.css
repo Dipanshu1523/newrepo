@@ -214,3 +214,68 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #81C784;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: column;
+        /* Stack main and aside vertically on smaller screens */
+    }
+
+    main,
+    aside {
+        width: 100%;
+        /* Full width for smaller screens */
+    }
+
+    aside {
+        border-left: none;
+        border-top: 2px solid #4CAF50;
+        margin-top: 1rem;
+    }
+
+    video {
+        width: 100%;
+    }
+}
+
+/* ID Selectors */
+#firstMainSection {
+    background-color: #f0f8ff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#secondMainSection {
+    background-color: #fff0f5;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#thirdMainSection {
+    background-color: #f0fff0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#fourthMainSection {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#Companies {
+    background-color: #e6e6fa;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#Contactform {
+    background-color: #fffacd;
+    padding: 1rem;
+    border-radius: 10px;
+}
