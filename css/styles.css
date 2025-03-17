@@ -141,3 +141,76 @@ figcaption {
     font-style: italic;
     margin-top: 0.5rem;
 }
+
+/* Video styling */
+video {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: auto;
+}
+
+/* Aside section styling */
+aside h2 {
+    color: #4CAF50;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 0.5rem 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    line-height: 1.6;
+}
+
+aside ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 1rem;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+}
+
+form label {
+    font-weight: bold;
+    color: #4CAF50;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #81C784;
+}
