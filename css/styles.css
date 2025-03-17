@@ -62,3 +62,82 @@ nav ul li a {
 nav ul li a:hover {
     color: #81C784;
 }
+
+/* Main and aside container */
+.container {
+    display: flex;
+    /* Use Flexbox for main and aside */
+    width: 100%;
+    /* Full width for the container */
+}
+
+/* Main content area */
+main {
+    flex: 70%;
+    /* 70% width for main */
+    padding: 1rem;
+}
+
+/* Aside content area */
+aside {
+    flex: 28%;
+    /* 28% width for aside */
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-left: 2px solid #4CAF50;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in width */
+}
+
+/* Clear floats for footer */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+    width: 100%;
+    /* Full width for footer */
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Blockquote styling */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #4CAF50;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+/* Quote styling */
+q {
+    font-weight: bold;
+    color: #4CAF50;
+    display: block;
+    margin: 1rem 0;
+}
+
+/* Figure and image styling */
+figure {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+figure img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
